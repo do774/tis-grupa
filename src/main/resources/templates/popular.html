@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Popular Products</title>
+  <link rel="stylesheet" type="text/css" href="/css/popular.css"/>
+</head>
+<body>
+  <h1>Popular Products</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Average Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="product : ${popularProducts}">
+        <td th:text="${product.name}">Name</td>
+        <td th:text="${product.averageRating}">Average Rating</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
