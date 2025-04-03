@@ -43,6 +43,13 @@ Alati:
 4. Dohvaćanje popularnih proizvoda kao view(thymeleaf):
 -> http://localhost:8080/view/popular
 
+5. H2 database:
+-> http://localhost:8080/h2-console/
+   Računao sam da je ovo testna baza, pa sam upisao u application properties user i pass direktno
+   (umjesto neke vanjske exportane varijable, pa npr. u app.prop -> spring.datasource.password=${DB_PASS}) 
+   user: user 
+   password: pass  
+
 *************** Endpointi iz zadatka: 
 
 1. Unos produkta
