@@ -21,12 +21,12 @@ Alati:
 -> Run as Java Application 
 
 2. Sa mavenom:
--> ući u projekt: cd restapi
+-> ući u projekt: cd tis-grupa
 -> mvn clean install 
 -> java -jar ./target/restapi-0.0.1-SNAPSHOT.jar
 
 3. Sa dockerom:
--> ući u projekt: cd restapi
+-> ući u projekt: cd tis-grupa
 -> sudo docker compose up --build
 
 *************** Korištenje aplikacije: 
